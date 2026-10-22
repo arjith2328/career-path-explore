@@ -1,0 +1,184 @@
+{
+  "pathways": {
+    "AI & Machine Learning": {
+      "id": "ai_ml_track",
+      "domain": "AI & Machine Learning",
+      "title": "Machine Learning Engineering & AI Architecture",
+      "description": "Progress from foundational model training and vision pipelines to principal AI system architecture and research leadership.",
+      "levels": [
+        {
+          "level": "Level 1 (Foundations)",
+          "title": "Junior ML / AI Developer",
+          "yearsOfExperienceRange": "0-2 Years",
+          "focusArea": "Model training, data preprocessing, scikit-learn, PyTorch fundamentals, and experiment tracking.",
+          "keyResponsibilities": [
+            "Prepare clean datasets and perform exploratory data analysis",
+            "Train baseline classification and regression models",
+            "Evaluate metrics (precision, recall, mAP) and document experiments"
+          ],
+          "coreCompetencies": ["Python", "PyTorch", "Scikit-Learn", "Git & Version Control"],
+          "typicalCompensation": "$95,000 - $125,000"
+        },
+        {
+          "level": "Level 2 (Core Engineering)",
+          "title": "Machine Learning Engineer / Computer Vision Engineer",
+          "yearsOfExperienceRange": "2-5 Years",
+          "focusArea": "End-to-end model training, real-time computer vision pipelines, ONNX quantization, and containerized inference microservices.",
+          "keyResponsibilities": [
+            "Develop state-of-the-art vision or NLP models using PyTorch / YOLO",
+            "Optimize latency via TensorRT, ONNX runtime, and GPU clustering",
+            "Build automated CI/CD testing and inference REST APIs"
+          ],
+          "coreCompetencies": ["PyTorch", "OpenCV", "Docker & Containerization", "Model Optimization & ONNX"],
+          "typicalCompensation": "$140,000 - $175,000"
+        },
+        {
+          "level": "Level 3 (Advanced Scale)",
+          "title": "Senior ML / Computer Vision Architect",
+          "yearsOfExperienceRange": "5-8 Years",
+          "focusArea": "Large-scale distributed training, production MLOps telemetry, real-time edge acceleration, and system resilience.",
+          "keyResponsibilities": [
+            "Architect distributed multi-node GPU training workflows",
+            "Design real-time drift telemetry and automatic retraining triggers",
+            "Lead technical reviews and mentor engineering squads"
+          ],
+          "coreCompetencies": ["MLOps & Model Registry", "AWS Cloud Architecture", "Kubernetes", "System Design"],
+          "typicalCompensation": "$185,000 - $240,000"
+        },
+        {
+          "level": "Level 4 (Leadership)",
+          "title": "Principal AI Systems Architect / Director of AI",
+          "yearsOfExperienceRange": "8+ Years",
+          "focusArea": "Organizational AI strategy, multi-modal foundation models, enterprise data governance, and cross-functional technology direction.",
+          "keyResponsibilities": [
+            "Establish corporate technology vision for AI and compute infrastructure",
+            "Formulate research partnerships and IP strategy",
+            "Direct multi-million dollar GPU infrastructure budgets and architectural standards"
+          ],
+          "coreCompetencies": ["Strategic AI Governance", "Executive Stakeholder Management", "Advanced Multimodal Systems"],
+          "typicalCompensation": "$250,000 - $350,000+"
+        }
+      ]
+    },
+    "Embedded Systems": {
+      "id": "embedded_track",
+      "domain": "Embedded Systems",
+      "title": "Embedded Systems & Firmware Architecture",
+      "description": "Progress from bare-metal peripheral programming and RTOS drivers to principal hardware-software systems architecture.",
+      "levels": [
+        {
+          "level": "Level 1 (Foundations)",
+          "title": "Junior Embedded / Firmware Engineer",
+          "yearsOfExperienceRange": "0-2 Years",
+          "focusArea": "Microcontroller programming, basic protocol drivers (UART, I2C, SPI), and lab instrumentation.",
+          "keyResponsibilities": [
+            "Write basic firmware routines in C on ARM Cortex-M microcontrollers",
+            "Debug signals using oscilloscopes and logic analyzers",
+            "Implement peripheral communication drivers for sensors"
+          ],
+          "coreCompetencies": ["Embedded C / C++", "ARM Cortex & Microcontrollers", "Hardware Protocols (I2C/SPI/UART/CAN)"],
+          "typicalCompensation": "$80,000 - $105,000"
+        },
+        {
+          "level": "Level 2 (Core Engineering)",
+          "title": "Embedded Systems Engineer / RTOS Developer",
+          "yearsOfExperienceRange": "2-5 Years",
+          "focusArea": "Deterministic multitasking with FreeRTOS, secure bootloaders, low-power optimization, and bus protocols.",
+          "keyResponsibilities": [
+            "Architect deterministic multi-task RTOS firmware",
+            "Implement secure OTA firmware updates and custom bootloaders",
+            "Conduct signal integrity and hardware-in-the-loop (HIL) testing"
+          ],
+          "coreCompetencies": ["FreeRTOS & Real-Time OS", "Hardware Debugging & Oscilloscopes", "Embedded C / C++"],
+          "typicalCompensation": "$120,000 - $155,000"
+        },
+        {
+          "level": "Level 3 (Advanced Scale)",
+          "title": "Senior Embedded / Systems Architect",
+          "yearsOfExperienceRange": "5-8 Years",
+          "focusArea": "Custom board bring-up, silicon validation, safety-critical architecture (ISO 26262/MISRA), and edge AI integration.",
+          "keyResponsibilities": [
+            "Lead new silicon bring-up and custom hardware architecture",
+            "Enforce strict MISRA-C and functional safety compliance",
+            "Design ultra-low-power energy harvesting algorithms"
+          ],
+          "coreCompetencies": ["System Architecture", "Safety Critical Systems", "Linux Kernel / BSP"],
+          "typicalCompensation": "$160,000 - $210,000"
+        },
+        {
+          "level": "Level 4 (Leadership)",
+          "title": "Principal Embedded Architect / VP of Hardware Engineering",
+          "yearsOfExperienceRange": "8+ Years",
+          "focusArea": "Hardware product roadmap, custom ASIC/SoC specification, factory production scaling, and cross-discipline governance.",
+          "keyResponsibilities": [
+            "Define next-generation hardware platform architecture",
+            "Manage manufacturing partnerships and mass production yield",
+            "Direct multi-disciplinary electrical and firmware engineering organizations"
+          ],
+          "coreCompetencies": ["SoC Architecture", "Manufacturing & Supply Chain Governance", "Executive Leadership"],
+          "typicalCompensation": "$230,000 - $320,000+"
+        }
+      ]
+    },
+    "Software Engineering": {
+      "id": "software_track",
+      "domain": "Software Engineering",
+      "title": "Software Engineering & Distributed Systems",
+      "description": "Progress from component development and REST APIs to high-scale distributed systems and enterprise engineering leadership.",
+      "levels": [
+        {
+          "level": "Level 1 (Foundations)",
+          "title": "Junior Software Engineer",
+          "yearsOfExperienceRange": "0-2 Years",
+          "focusArea": "Frontend UI components, backend CRUD endpoints, relational schema design, and unit testing.",
+          "keyResponsibilities": [
+            "Implement responsive React components using TypeScript",
+            "Build RESTful API endpoints with Node.js or FastAPI",
+            "Write comprehensive unit and integration tests"
+          ],
+          "coreCompetencies": ["React", "TypeScript", "Node.js & Express", "SQL & Relational Databases"],
+          "typicalCompensation": "$85,000 - $115,000"
+        },
+        {
+          "level": "Level 2 (Core Engineering)",
+          "title": "Full Stack / Backend Engineer",
+          "yearsOfExperienceRange": "2-5 Years",
+          "focusArea": "High-throughput microservices, distributed caching, complex state management, and CI/CD pipelines.",
+          "keyResponsibilities": [
+            "Design scalable microservice communication patterns",
+            "Optimize database queries, indexing, and connection pools",
+            "Maintain containerized deployments with Docker and CI/CD"
+          ],
+          "coreCompetencies": ["React", "TypeScript", "Docker & Containerization", "AWS Cloud Architecture"],
+          "typicalCompensation": "$130,000 - $165,000"
+        },
+        {
+          "level": "Level 3 (Advanced Scale)",
+          "title": "Staff / Lead Software Architect",
+          "yearsOfExperienceRange": "5-8 Years",
+          "focusArea": "High-concurrency distributed systems, zero-downtime database migrations, micro-frontends, and technical mentoring.",
+          "keyResponsibilities": [
+            "Architect high-availability event-driven distributed platforms",
+            "Establish engineering best practices and architectural guardrails",
+            "Lead cross-team technical design reviews"
+          ],
+          "coreCompetencies": ["Distributed Systems", "Kubernetes", "System Design", "Cloud Infrastructure"],
+          "typicalCompensation": "$175,000 - $230,000"
+        },
+        {
+          "level": "Level 4 (Leadership)",
+          "title": "Principal Architect / VP of Engineering",
+          "yearsOfExperienceRange": "8+ Years",
+          "focusArea": "Enterprise software strategy, cloud cost optimization, developer productivity infrastructure, and executive leadership.",
+          "keyResponsibilities": [
+            "Define long-term enterprise technology roadmap",
+            "Direct architecture across dozens of distributed services",
+            "Align technical milestones with business revenue objectives"
+          ],
+          "coreCompetencies": ["Enterprise Strategy", "Organizational Scaling", "Executive Communication"],
+          "typicalCompensation": "$240,000 - $340,000+"
+        }
+      ]
+    }
+  }
+}

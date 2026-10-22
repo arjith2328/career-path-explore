@@ -1,0 +1,38 @@
+ELENA CHEN
+elena.chen@data-systems.net | +1 (555) 412-9831 | New York, NY
+https://linkedin.com/in/elenachen-data | https://github.com/elenachen-data
+
+PROFESSIONAL SUMMARY
+Data Engineer & Analytics Architect with 5.5 years of experience building high-throughput distributed ingestion pipelines, Apache Spark ETL jobs, and Kafka stream processing engines on Snowflake and PostgreSQL.
+
+EXPERIENCE
+Senior Data Platform Engineer | Vantage Data Labs
+2022 – Present | New York, NY
+• Architected enterprise real-time streaming pipeline processing 120M events/day using Apache Kafka, Apache Spark, and PostgreSQL.
+• Designed multi-tier dimensional data models and data warehouses in Snowflake and BigQuery with automated dbt transformation workflows.
+• Optimized distributed PySpark batch transformation clusters reducing daily data warehouse compute costs by 42%.
+• Implemented automated schema validation and data quality monitoring pipelines.
+
+Data Analyst & Engineer | Metro Insights Group
+2020 – 2022 | Boston, MA
+• Developed statistical modeling, regression models, and SQL analytical views for cohort retention analysis.
+• Created automated ingestion scripts in Python using Pandas & NumPy, integrating 15 external SaaS REST APIs into PostgreSQL.
+• Partnered with product and finance squads to design A/B testing attribution frameworks.
+
+EDUCATION
+Master of Science (M.S.) in Data Science & Analytics
+Columbia University | 2020
+
+Bachelor of Science (B.S.) in Information Systems
+Carnegie Mellon University | 2018
+
+TECHNICAL SKILLS
+Languages: Python, SQL & PostgreSQL, Bash, R
+Data Engineering: Apache Spark, PySpark, Kafka & Stream Processing, Data Warehousing, Snowflake, BigQuery, dbt, Pandas & NumPy
+Analytics: Statistical Modeling, A/B Testing, Data Pipeline Architecture, CI/CD Pipelines
+Certifications: AWS Certified Data Analytics Specialty (Verified)
+
+PROJECTS
+StreamPulse — Low-Latency Financial Transaction Pipeline
+Constructed an event-driven stream processing architecture using Apache Kafka and Apache Spark streaming, sinking into Snowflake with sub-5 second ingestion latency.
+Impact: Enabled real-time fraud scoring for 4.2M daily transactions.

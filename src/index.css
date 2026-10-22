@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #F7F7F5;
+    --bg-surface: #FFFFFF;
+    --text-primary: #111318;
+    --text-secondary: #667085;
+    --text-muted: #8E98A8;
+    --border-color: #E6E7E5;
+    --border-subtle: #F0F1EF;
+    --accent: #2457D6;
+    --accent-subtle: #EDF2FE;
+    --success: #167A4A;
+    --success-subtle: #EDF7F2;
+    --warning: #A86400;
+    --warning-subtle: #FEF6EE;
+    --danger: #B42318;
+    --danger-subtle: #FEE4E2;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom Scrollbar for 2026 Enterprise Feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5D7D3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8BAB5;
+}
+
+/* Subtle transitions */
+.transition-subtle {
+  transition: all 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}

@@ -1,0 +1,38 @@
+DR. SARAH LIN
+sarah.lin@embedded-labs.io | +1 (555) 891-4520 | Austin, TX
+https://linkedin.com/in/drsarahlin-embedded | https://github.com/sarahlin-hw
+
+PROFESSIONAL SUMMARY
+Embedded Systems & Firmware Engineer with 6.2 years of verified experience developing bare-metal firmware, FreeRTOS device drivers, and sensor communication protocols on ARM Cortex-M microcontrollers.
+
+EXPERIENCE
+Lead Embedded Systems Engineer | Quantum IoT Hardware
+2022 – Present | Austin, TX
+• Engineered low-power firmware in C and C++ for ARM Cortex-M4 and STM32 microcontrollers controlling industrial motor controllers.
+• Implemented deterministic FreeRTOS task scheduling, DMA buffers, and hardware interrupt service routines with sub-10 microsecond jitter.
+• Developed driver stacks for I2C, SPI, UART, and CAN bus peripherals interfacing multi-channel ADC sensors.
+• Conducted hardware debugging using digital oscilloscopes, logic analyzers, and JTAG / SWD emulators.
+
+Firmware Engineer | Texas Embedded Devices
+2019 – 2022 | Dallas, TX
+• Built bare-metal device drivers in C99 for custom sensor telemetry nodes.
+• Designed 4-layer PCB prototypes in Altium Designer and verified signal integrity with high-speed oscilloscopes.
+• Integrated Edge AI & Embedded Inference with TFLite Micro for low-power vibration anomaly detection on ARM MCUs.
+
+EDUCATION
+Ph.D. in Electrical & Computer Engineering
+University of Texas at Austin | 2019 | Focus: Embedded Micro-Architectures
+
+Bachelor of Science (B.S.) in Electrical Engineering
+Georgia Institute of Technology | 2015
+
+TECHNICAL SKILLS
+Programming: C / C++, Embedded C, Python, Assembly
+Embedded & Hardware: ARM Cortex Microcontrollers, STM32, FreeRTOS & RTOS, I2C/SPI/UART/CAN, Hardware Debugging & Oscilloscope, Edge AI & Embedded Inference
+Electronics: PCB Design & Altium, Signal Integrity, Soldering, Multimeter
+Certifications: Certified Embedded Systems Professional (Verified)
+
+PROJECTS
+TinySense — MCU Edge Vibration Perception Node
+Implemented low-power vibration telemetry firmware using ARM Cortex-M4 and FreeRTOS, transmitting over CAN bus at 1 Mbps.
+Impact: Reduced field false-positive alarm rates by 68% in automotive testing.

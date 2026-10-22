@@ -1,0 +1,47 @@
+{
+  "relationships": [
+    {
+      "sourceSkill": "Python",
+      "adjacentSkills": ["PyTorch", "TensorFlow", "Scikit-Learn", "FastAPI & Python Web", "OpenCV"],
+      "transferableRoles": ["Machine Learning Engineer", "Computer Vision Engineer", "AI & Generative AI Engineer", "Data Platform Engineer"]
+    },
+    {
+      "sourceSkill": "OpenCV",
+      "adjacentSkills": ["YOLOv8 & Object Detection", "PyTorch", "Model Optimization & ONNX"],
+      "transferableRoles": ["Computer Vision Engineer", "Robotics & Autonomous Systems Engineer", "Machine Learning Engineer"]
+    },
+    {
+      "sourceSkill": "Embedded C / C++",
+      "adjacentSkills": ["FreeRTOS & Real-Time OS", "ARM Cortex & Microcontrollers", "Hardware Protocols (I2C/SPI/UART/CAN)", "Hardware Debugging & Oscilloscopes"],
+      "transferableRoles": ["Embedded Systems Engineer", "Firmware Engineer", "IoT & Edge Systems Engineer", "Robotics & Autonomous Systems Engineer"]
+    },
+    {
+      "sourceSkill": "React",
+      "adjacentSkills": ["TypeScript", "Next.js", "Node.js & Express", "Docker & Containerization"],
+      "transferableRoles": ["Frontend Engineer", "Full Stack Engineer", "Backend Systems Engineer"]
+    },
+    {
+      "sourceSkill": "Docker & Containerization",
+      "adjacentSkills": ["Kubernetes", "AWS Cloud Architecture", "CI/CD & GitHub Actions"],
+      "transferableRoles": ["Cloud & DevOps Engineer", "Backend Systems Engineer", "Machine Learning Engineer"]
+    }
+  ],
+  "projectUpgradeTemplates": {
+    "Computer Vision": {
+      "missingSkill": "Docker & Containerization",
+      "upgradeAction": "Containerize your existing {projectName} inference pipeline into a multi-stage Docker container and expose a RESTful prediction API with FastAPI."
+    },
+    "Deep Learning": {
+      "missingSkill": "Model Optimization & ONNX",
+      "upgradeAction": "Convert the trained weights of {projectName} to ONNX format and apply TensorRT FP16/INT8 quantization to measure latency improvements."
+    },
+    "Embedded Systems": {
+      "missingSkill": "FreeRTOS & Real-Time OS",
+      "upgradeAction": "Refactor the bare-metal polling loop in {projectName} into preemptive FreeRTOS tasks with thread-safe queues and binary semaphores."
+    },
+    "Software Engineering": {
+      "missingSkill": "CI/CD & GitHub Actions",
+      "upgradeAction": "Configure an automated GitHub Actions CI/CD workflow for {projectName} with linting, unit test coverage, and automated container deployment."
+    }
+  }
+}

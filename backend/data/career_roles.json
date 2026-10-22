@@ -1,0 +1,289 @@
+{
+  "roles": [
+    {
+      "id": "ml_engineer",
+      "title": "Machine Learning Engineer",
+      "domain": "AI & Machine Learning",
+      "description": "Architects, trains, and operationalizes machine learning systems, deep learning pipelines, and inference microservices.",
+      "requiredSkills": ["Python", "Machine Learning", "Deep Learning", "PyTorch", "Scikit-Learn"],
+      "preferredSkills": ["Docker & Containerization", "Model Optimization & ONNX", "MLOps & Model Registry", "SQL & Relational Databases"],
+      "education": ["Computer Science", "Artificial Intelligence", "Data Science", "Electrical Engineering", "Mathematics"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "Very High",
+      "salaryRange": { "entry": "$115,000", "median": "$158,000", "senior": "$210,000" },
+      "transitionComplexity": "Moderate",
+      "keyMilestones": [
+        "Production Inference Microservice Deployment",
+        "MLOps Automated Drift Detection Pipeline",
+        "TensorRT / ONNX Quantization & Benchmarking"
+      ],
+      "relatedRoles": ["computer_vision_engineer", "ai_engineer", "data_scientist", "edge_ai_engineer"]
+    },
+    {
+      "id": "computer_vision_engineer",
+      "title": "Computer Vision Engineer",
+      "domain": "AI & Machine Learning",
+      "description": "Develops real-time visual perception architectures, object detection models, segmentation networks, and edge vision solutions.",
+      "requiredSkills": ["Python", "Computer Vision", "OpenCV", "Deep Learning", "PyTorch"],
+      "preferredSkills": ["YOLOv8 & Object Detection", "Model Optimization & ONNX", "Docker & Containerization", "C/C++"],
+      "education": ["Computer Science", "Artificial Intelligence", "Electrical Engineering", "Robotics"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "High",
+      "salaryRange": { "entry": "$120,000", "median": "$165,000", "senior": "$220,000" },
+      "transitionComplexity": "Moderate",
+      "keyMilestones": [
+        "Real-Time YOLO Object Detection Pipeline",
+        "Edge Model Quantization & Low-Latency Benchmarking",
+        "Multi-Camera Tracking & Synthetic Data Augmentation"
+      ],
+      "relatedRoles": ["ml_engineer", "robotics_engineer", "edge_ai_engineer", "ai_engineer"]
+    },
+    {
+      "id": "ai_engineer",
+      "title": "AI & Generative AI Engineer",
+      "domain": "AI & Machine Learning",
+      "description": "Designs multimodal AI applications, LLM agent workflows, fine-tuning pipelines, and semantic retrieval systems.",
+      "requiredSkills": ["Python", "Deep Learning", "Natural Language Processing (NLP)", "PyTorch"],
+      "preferredSkills": ["FastAPI & Python Web", "Docker & Containerization", "MLOps & Model Registry", "NoSQL & Document Stores"],
+      "education": ["Computer Science", "Artificial Intelligence", "Software Engineering"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "Extreme",
+      "salaryRange": { "entry": "$125,000", "median": "$170,000", "senior": "$230,000" },
+      "transitionComplexity": "Low-Moderate",
+      "keyMilestones": [
+        "Retrieval Augmented Generation (RAG) Architecture",
+        "Model Fine-Tuning & Evaluation Benchmark",
+        "Asynchronous Agentic Tool Integration"
+      ],
+      "relatedRoles": ["ml_engineer", "nlp_engineer", "full_stack_engineer"]
+    },
+    {
+      "id": "embedded_systems_engineer",
+      "title": "Embedded Systems Engineer",
+      "domain": "Embedded Systems",
+      "description": "Develops low-level firmware, board bring-up, real-time operating system applications, and hardware peripheral drivers.",
+      "requiredSkills": ["Embedded C / C++", "FreeRTOS & Real-Time OS", "ARM Cortex & Microcontrollers", "Hardware Protocols (I2C/SPI/UART/CAN)"],
+      "preferredSkills": ["Hardware Debugging & Oscilloscopes", "PCB Design & EDA Tools", "IoT Protocols & Cloud (MQTT/HTTP)"],
+      "education": ["Electrical Engineering", "Electronics & Communication", "Computer Engineering", "Robotics"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "High",
+      "salaryRange": { "entry": "$95,000", "median": "$135,000", "senior": "$180,000" },
+      "transitionComplexity": "Moderate",
+      "keyMilestones": [
+        "Bare-Metal Peripheral Driver Development",
+        "FreeRTOS Deterministic Multi-Task Architecture",
+        "Hardware-In-The-Loop (HIL) Verification"
+      ],
+      "relatedRoles": ["firmware_engineer", "iot_engineer", "robotics_engineer", "electronics_engineer"]
+    },
+    {
+      "id": "firmware_engineer",
+      "title": "Firmware Engineer",
+      "domain": "Embedded Systems",
+      "description": "Writes ultra-low-level code, bootloaders, kernel drivers, and memory-constrained device firmware for custom silicon.",
+      "requiredSkills": ["Embedded C / C++", "ARM Cortex & Microcontrollers", "Hardware Protocols (I2C/SPI/UART/CAN)"],
+      "preferredSkills": ["FreeRTOS & Real-Time OS", "Hardware Debugging & Oscilloscopes", "Verilog / VHDL / FPGA"],
+      "education": ["Electrical Engineering", "Computer Engineering", "Electronics"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "High",
+      "salaryRange": { "entry": "$100,000", "median": "$140,000", "senior": "$190,000" },
+      "transitionComplexity": "Moderate",
+      "keyMilestones": [
+        "Custom Secure Bootloader Implementation",
+        "Direct Memory Access (DMA) Zero-Copy Driver",
+        "Low-Power Sleep Mode Optimization"
+      ],
+      "relatedRoles": ["embedded_systems_engineer", "vlsi_engineer", "iot_engineer"]
+    },
+    {
+      "id": "iot_engineer",
+      "title": "IoT & Edge Systems Engineer",
+      "domain": "IoT & Edge Computing",
+      "description": "Connects distributed embedded devices to cloud ecosystems with reliable telemetry, low power, and edge intelligence.",
+      "requiredSkills": ["Embedded C / C++", "IoT Protocols & Cloud (MQTT/HTTP)", "ARM Cortex & Microcontrollers", "Hardware Protocols (I2C/SPI/UART/CAN)"],
+      "preferredSkills": ["Python", "AWS Cloud Architecture", "Docker & Containerization"],
+      "education": ["Computer Engineering", "Electrical Engineering", "Information Technology"],
+      "experienceLevel": "Entry-to-Mid (1-4 Years)",
+      "marketDemand": "High",
+      "salaryRange": { "entry": "$90,000", "median": "$130,000", "senior": "$175,000" },
+      "transitionComplexity": "Low-Moderate",
+      "keyMilestones": [
+        "Edge Telemetry Ingestion Pipeline",
+        "Over-The-Air (OTA) Firmware Upgrade Architecture",
+        "End-to-End Device Security & Key Management"
+      ],
+      "relatedRoles": ["embedded_systems_engineer", "cloud_engineer", "robotics_engineer"]
+    },
+    {
+      "id": "frontend_engineer",
+      "title": "Frontend Engineer",
+      "domain": "Software Engineering",
+      "description": "Builds reactive, accessible, high-performance web applications and design systems with modern JavaScript/TypeScript frameworks.",
+      "requiredSkills": ["React", "TypeScript", "JavaScript"],
+      "preferredSkills": ["Next.js", "Node.js & Express", "CI/CD & GitHub Actions"],
+      "education": ["Computer Science", "Software Engineering", "Information Systems"],
+      "experienceLevel": "Entry-to-Mid (1-4 Years)",
+      "marketDemand": "High",
+      "salaryRange": { "entry": "$85,000", "median": "$125,000", "senior": "$170,000" },
+      "transitionComplexity": "Low",
+      "keyMilestones": [
+        "Component Design System & State Management",
+        "Server-Side Rendering & Core Web Vitals Optimization",
+        "Automated E2E Testing Suite"
+      ],
+      "relatedRoles": ["full_stack_engineer", "backend_engineer"]
+    },
+    {
+      "id": "backend_engineer",
+      "title": "Backend Systems Engineer",
+      "domain": "Software Engineering",
+      "description": "Architects scalable APIs, microservices, distributed transaction systems, and database access layers.",
+      "requiredSkills": ["Node.js & Express", "SQL & Relational Databases", "FastAPI & Python Web"],
+      "preferredSkills": ["Docker & Containerization", "NoSQL & Document Stores", "AWS Cloud Architecture", "Kubernetes"],
+      "education": ["Computer Science", "Software Engineering", "Information Technology"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "Very High",
+      "salaryRange": { "entry": "$95,000", "median": "$140,000", "senior": "$190,000" },
+      "transitionComplexity": "Moderate",
+      "keyMilestones": [
+        "High-Throughput Microservice Architecture",
+        "Distributed Caching & Database Index Tuning",
+        "Resilient Event-Driven Messaging Pipeline"
+      ],
+      "relatedRoles": ["full_stack_engineer", "cloud_engineer", "data_engineer"]
+    },
+    {
+      "id": "full_stack_engineer",
+      "title": "Full Stack Engineer",
+      "domain": "Software Engineering",
+      "description": "Delivers end-to-end product features spanning frontend reactive interfaces, backend API services, and database schemas.",
+      "requiredSkills": ["React", "TypeScript", "Node.js & Express", "SQL & Relational Databases"],
+      "preferredSkills": ["FastAPI & Python Web", "Docker & Containerization", "AWS Cloud Architecture"],
+      "education": ["Computer Science", "Software Engineering", "Information Systems"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "Very High",
+      "salaryRange": { "entry": "$95,000", "median": "$138,000", "senior": "$185,000" },
+      "transitionComplexity": "Low-Moderate",
+      "keyMilestones": [
+        "Full-Stack Production Application Deployment",
+        "Secure Authentication & Role-Based Access Control",
+        "Automated CI/CD Deployment Pipeline"
+      ],
+      "relatedRoles": ["frontend_engineer", "backend_engineer", "cloud_engineer"]
+    },
+    {
+      "id": "cloud_devops_engineer",
+      "title": "Cloud & DevOps Engineer",
+      "domain": "Cloud & DevOps",
+      "description": "Builds immutable cloud infrastructure, automated CI/CD pipelines, container orchestration, and observability stacks.",
+      "requiredSkills": ["Docker & Containerization", "AWS Cloud Architecture", "CI/CD & GitHub Actions"],
+      "preferredSkills": ["Kubernetes", "Python", "SQL & Relational Databases"],
+      "education": ["Computer Science", "Information Technology", "Software Engineering"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "Extreme",
+      "salaryRange": { "entry": "$105,000", "median": "$150,000", "senior": "$205,000" },
+      "transitionComplexity": "Moderate",
+      "keyMilestones": [
+        "Infrastructure as Code (Terraform / CloudFormation)",
+        "Kubernetes Multi-Cluster Deployment",
+        "Zero-Downtime Blue/Green Release Automation"
+      ],
+      "relatedRoles": ["backend_engineer", "cybersecurity_engineer", "data_engineer"]
+    },
+    {
+      "id": "data_engineer",
+      "title": "Data Platform Engineer",
+      "domain": "Data Engineering",
+      "description": "Constructs robust batch/streaming data pipelines, lakehouse architectures, and schema management workflows.",
+      "requiredSkills": ["Python", "SQL & Relational Databases", "Data Pipelines & Apache Spark"],
+      "preferredSkills": ["Docker & Containerization", "AWS Cloud Architecture", "NoSQL & Document Stores"],
+      "education": ["Computer Science", "Data Science", "Information Systems"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "Very High",
+      "salaryRange": { "entry": "$105,000", "median": "$148,000", "senior": "$200,000" },
+      "transitionComplexity": "Moderate",
+      "keyMilestones": [
+        "Distributed ETL Pipeline with Apache Spark / Airflow",
+        "Data Lakehouse Schema & Partitioning Optimization",
+        "Real-Time Event Streaming with Apache Kafka"
+      ],
+      "relatedRoles": ["data_scientist", "ml_engineer", "backend_engineer"]
+    },
+    {
+      "id": "robotics_engineer",
+      "title": "Robotics & Autonomous Systems Engineer",
+      "domain": "Robotics & Automation",
+      "description": "Integrates sensors, kinematics, motion planning algorithms, and perception stacks for autonomous machines.",
+      "requiredSkills": ["ROS / ROS 2 & Robotics", "Embedded C / C++", "Python"],
+      "preferredSkills": ["Computer Vision", "ARM Cortex & Microcontrollers", "FreeRTOS & Real-Time OS"],
+      "education": ["Robotics", "Mechanical Engineering", "Electrical Engineering", "Computer Science"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "High",
+      "salaryRange": { "entry": "$100,000", "median": "$145,000", "senior": "$195,000" },
+      "transitionComplexity": "Moderate-High",
+      "keyMilestones": [
+        "SLAM & Sensor Fusion Navigation Stack",
+        "Trajectory Generation & Obstacle Avoidance",
+        "Real-Time Gazebo / Hardware Validation"
+      ],
+      "relatedRoles": ["embedded_systems_engineer", "computer_vision_engineer", "edge_ai_engineer"]
+    },
+    {
+      "id": "vlsi_engineer",
+      "title": "VLSI & Digital ASIC/FPGA Engineer",
+      "domain": "VLSI & Semiconductor",
+      "description": "Designs digital circuits, synthesized RTL code, timing closure routines, and FPGA hardware accelerators.",
+      "requiredSkills": ["Verilog / VHDL / FPGA", "Embedded C / C++"],
+      "preferredSkills": ["Hardware Debugging & Oscilloscopes", "PCB Design & EDA Tools"],
+      "education": ["Electrical Engineering", "VLSI Design", "Microelectronics", "Computer Engineering"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "High",
+      "salaryRange": { "entry": "$110,000", "median": "$155,000", "senior": "$215,000" },
+      "transitionComplexity": "High",
+      "keyMilestones": [
+        "Synthesizable RTL Block Design & Testbench",
+        "Static Timing Analysis & Clock Domain Crossing",
+        "FPGA Hardware Accelerator Bring-Up"
+      ],
+      "relatedRoles": ["firmware_engineer", "hardware_engineer", "electronics_engineer"]
+    },
+    {
+      "id": "electronics_hardware_engineer",
+      "title": "Hardware & PCB Design Engineer",
+      "domain": "Electronics & Hardware",
+      "description": "Designs analog/digital schematics, multi-layer high-speed PCB layouts, power delivery networks, and regulatory compliance.",
+      "requiredSkills": ["PCB Design & EDA Tools", "Hardware Debugging & Oscilloscopes", "Hardware Protocols (I2C/SPI/UART/CAN)"],
+      "preferredSkills": ["ARM Cortex & Microcontrollers", "Embedded C / C++"],
+      "education": ["Electrical Engineering", "Electronics", "Hardware Engineering"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "High",
+      "salaryRange": { "entry": "$95,000", "median": "$135,000", "senior": "$180,000" },
+      "transitionComplexity": "Moderate",
+      "keyMilestones": [
+        "Multi-Layer High-Speed Impedance-Controlled PCB",
+        "Power Supply Design & Thermal Dissipation Analysis",
+        "EMI/EMC Compliance Pre-Certification"
+      ],
+      "relatedRoles": ["embedded_systems_engineer", "vlsi_engineer", "iot_engineer"]
+    },
+    {
+      "id": "cybersecurity_engineer",
+      "title": "Cybersecurity & Security Engineer",
+      "domain": "Cybersecurity",
+      "description": "Secures software systems, performs penetration testing, analyzes threat vectors, and implements zero-trust architecture.",
+      "requiredSkills": ["Network Security & Penetration Testing", "Python"],
+      "preferredSkills": ["AWS Cloud Architecture", "Docker & Containerization", "SQL & Relational Databases"],
+      "education": ["Cybersecurity", "Computer Science", "Information Security"],
+      "experienceLevel": "Mid-Level (2-5 Years)",
+      "marketDemand": "Very High",
+      "salaryRange": { "entry": "$100,000", "median": "$145,000", "senior": "$195,000" },
+      "transitionComplexity": "Moderate",
+      "keyMilestones": [
+        "Automated Vulnerability Scanner & Penetration Report",
+        "Zero-Trust Identity & Access Management Architecture",
+        "Incident Response & Threat Hunting Playbook"
+      ],
+      "relatedRoles": ["cloud_devops_engineer", "backend_engineer"]
+    }
+  ]
+}

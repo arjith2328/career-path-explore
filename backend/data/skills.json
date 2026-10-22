@@ -1,0 +1,310 @@
+{
+  "skills": [
+    {
+      "id": "python",
+      "name": "Python",
+      "aliases": ["python3", "python 3", "py", "cpython"],
+      "category": "Languages & Frameworks",
+      "domain": "AI & Machine Learning",
+      "importance": "Critical",
+      "keywords": ["python", "python3", "pandas", "numpy", "scipy", "pytest", "asyncio"]
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "aliases": ["torch", "torchvision", "torchaudio", "pytorch framework"],
+      "category": "Deep Learning & AI",
+      "domain": "AI & Machine Learning",
+      "importance": "Critical",
+      "keywords": ["pytorch", "torch", "nn.module", "autograd", "cuda", "tensor"]
+    },
+    {
+      "id": "tensorflow",
+      "name": "TensorFlow",
+      "aliases": ["tf", "keras", "tensorflow 2.0", "tf2"],
+      "category": "Deep Learning & AI",
+      "domain": "AI & Machine Learning",
+      "importance": "High",
+      "keywords": ["tensorflow", "keras", "tensorboard", "tf.data"]
+    },
+    {
+      "id": "opencv",
+      "name": "OpenCV",
+      "aliases": ["open cv", "cv2", "computer vision library"],
+      "category": "Computer Vision",
+      "domain": "AI & Machine Learning",
+      "importance": "Critical",
+      "keywords": ["opencv", "cv2", "image processing", "canny", "contour", "warp", "filter"]
+    },
+    {
+      "id": "yolo",
+      "name": "YOLOv8 & Object Detection",
+      "aliases": ["yolo", "yolov8", "yolov5", "yolov7", "ultralytics", "object detection", "yolo v8"],
+      "category": "Computer Vision",
+      "domain": "AI & Machine Learning",
+      "importance": "High",
+      "keywords": ["yolo", "yolov8", "ultralytics", "bounding box", "coco", "nms", "map50"]
+    },
+    {
+      "id": "scikit_learn",
+      "name": "Scikit-Learn",
+      "aliases": ["scikit learn", "sklearn", "scikit-learn"],
+      "category": "Machine Learning",
+      "domain": "AI & Machine Learning",
+      "importance": "High",
+      "keywords": ["scikit-learn", "sklearn", "random forest", "gradient boosting", "svm", "logistic regression", "pca"]
+    },
+    {
+      "id": "deep_learning",
+      "name": "Deep Learning",
+      "aliases": ["neural networks", "dnn", "cnn", "rnn", "transformers", "deep neural network"],
+      "category": "Deep Learning & AI",
+      "domain": "AI & Machine Learning",
+      "importance": "Critical",
+      "keywords": ["deep learning", "neural network", "backpropagation", "convolutional", "attention mechanism"]
+    },
+    {
+      "id": "model_optimization",
+      "name": "Model Optimization & ONNX",
+      "aliases": ["onnx", "tensorrt", "quantization", "model pruning", "openvino"],
+      "category": "AI Deployment & MLOps",
+      "domain": "AI & Machine Learning",
+      "importance": "High",
+      "keywords": ["onnx", "tensorrt", "quantization", "fp16", "int8", "pruning", "openvino"]
+    },
+    {
+      "id": "nlp",
+      "name": "Natural Language Processing (NLP)",
+      "aliases": ["nlp", "text mining", "spacy", "nltk", "huggingface", "bert", "llm"],
+      "category": "NLP & Generative AI",
+      "domain": "AI & Machine Learning",
+      "importance": "High",
+      "keywords": ["nlp", "tokenization", "embeddings", "bert", "transformer", "huggingface", "spacy"]
+    },
+    {
+      "id": "mlops",
+      "name": "MLOps & Model Registry",
+      "aliases": ["mlops", "mlflow", "wandb", "dvc", "kubeflow"],
+      "category": "AI Deployment & MLOps",
+      "domain": "AI & Machine Learning",
+      "importance": "Medium",
+      "keywords": ["mlops", "mlflow", "wandb", "model drift", "feature store", "kubeflow"]
+    },
+    {
+      "id": "embedded_c",
+      "name": "Embedded C / C++",
+      "aliases": ["embedded c", "c/c++", "bare metal c", "c programming", "c++", "embedded c++"],
+      "category": "Firmware & Low-Level",
+      "domain": "Embedded Systems",
+      "importance": "Critical",
+      "keywords": ["embedded c", "pointers", "registers", "volatile", "bitwise", "memory map", "isr"]
+    },
+    {
+      "id": "freertos",
+      "name": "FreeRTOS & Real-Time OS",
+      "aliases": ["freertos", "rtos", "zephyr", "real time operating system", "zephyr rtos"],
+      "category": "Firmware & Low-Level",
+      "domain": "Embedded Systems",
+      "importance": "Critical",
+      "keywords": ["freertos", "task", "semaphore", "mutex", "queue", "context switch", "scheduler"]
+    },
+    {
+      "id": "microcontrollers",
+      "name": "ARM Cortex & Microcontrollers",
+      "aliases": ["stm32", "arm cortex", "esp32", "nordic nrf", "microcontroller", "mcu", "pic", "avr", "arduino"],
+      "category": "Hardware & Microcontrollers",
+      "domain": "Embedded Systems",
+      "importance": "Critical",
+      "keywords": ["stm32", "cortex-m", "esp32", "gpio", "timer", "adc", "dma", "nvic"]
+    },
+    {
+      "id": "hardware_protocols",
+      "name": "Hardware Protocols (I2C/SPI/UART/CAN)",
+      "aliases": ["i2c", "spi", "uart", "can bus", "rs485", "modbus", "ble", "bluetooth low energy"],
+      "category": "Hardware Interfaces",
+      "domain": "Embedded Systems",
+      "importance": "Critical",
+      "keywords": ["i2c", "spi", "uart", "can", "baud rate", "bus", "master", "slave", "packet"]
+    },
+    {
+      "id": "hardware_debugging",
+      "name": "Hardware Debugging & Oscilloscopes",
+      "aliases": ["oscilloscope", "logic analyzer", "jtag", "swd", "gdb", "multimeter", "soldering"],
+      "category": "Hardware & Testing",
+      "domain": "Embedded Systems",
+      "importance": "High",
+      "keywords": ["oscilloscope", "logic analyzer", "jtag", "swd", "waveform", "schematic", "signal integrity"]
+    },
+    {
+      "id": "iot_protocols",
+      "name": "IoT Protocols & Cloud (MQTT/HTTP)",
+      "aliases": ["mqtt", "coap", "aws iot", "azure iot", "iot gateway", "telemetry"],
+      "category": "IoT & Connectivity",
+      "domain": "IoT & Edge Computing",
+      "importance": "High",
+      "keywords": ["mqtt", "broker", "publish", "subscribe", "iot core", "telemetry", "coap"]
+    },
+    {
+      "id": "pcb_design",
+      "name": "PCB Design & EDA Tools",
+      "aliases": ["kicad", "altium", "altium designer", "eagle", "schematic capture", "pcb layout"],
+      "category": "Electronics & Hardware",
+      "domain": "Electronics & Hardware",
+      "importance": "Critical",
+      "keywords": ["pcb", "schematic", "altium", "kicad", "gerber", "routing", "trace", "footprint", "bom"]
+    },
+    {
+      "id": "verilog_vhdl",
+      "name": "Verilog / VHDL / FPGA",
+      "aliases": ["verilog", "systemverilog", "vhdl", "fpga", "xilinx", "vivado", "altera", "quartus", "rtl"],
+      "category": "VLSI & FPGA",
+      "domain": "VLSI & Semiconductor",
+      "importance": "Critical",
+      "keywords": ["verilog", "systemverilog", "vhdl", "fpga", "rtl", "vivado", "timing closure", "lut", "dsp slice"]
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "aliases": ["reactjs", "react.js", "react 18", "react 19"],
+      "category": "Frontend Frameworks",
+      "domain": "Software Engineering",
+      "importance": "Critical",
+      "keywords": ["react", "jsx", "tsx", "hooks", "usestate", "useeffect", "usecontext", "virtual dom", "component"]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "aliases": ["ts", "typescript"],
+      "category": "Languages & Frameworks",
+      "domain": "Software Engineering",
+      "importance": "Critical",
+      "keywords": ["typescript", "interface", "type alias", "generic", "tsc", "strict mode"]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "aliases": ["js", "es6", "es2020", "vanilla js", "ecmascript"],
+      "category": "Languages & Frameworks",
+      "domain": "Software Engineering",
+      "importance": "Critical",
+      "keywords": ["javascript", "dom", "event loop", "promise", "async/await", "es6"]
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "aliases": ["next.js", "nextjs", "ssr", "server components"],
+      "category": "Frontend Frameworks",
+      "domain": "Software Engineering",
+      "importance": "High",
+      "keywords": ["next.js", "nextjs", "ssr", "ssg", "app router", "server actions"]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js & Express",
+      "aliases": ["nodejs", "node.js", "node", "express", "expressjs", "express.js"],
+      "category": "Backend Development",
+      "domain": "Software Engineering",
+      "importance": "Critical",
+      "keywords": ["nodejs", "express", "middleware", "npm", "rest api", "routing", "jwt"]
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI & Python Web",
+      "aliases": ["fastapi", "flask", "django", "uvicorn", "pydantic"],
+      "category": "Backend Development",
+      "domain": "Software Engineering",
+      "importance": "High",
+      "keywords": ["fastapi", "flask", "django", "pydantic", "openapi", "endpoints", "asgi"]
+    },
+    {
+      "id": "sql_databases",
+      "name": "SQL & Relational Databases",
+      "aliases": ["postgresql", "mysql", "sqlite", "sql", "postgres", "mariadb"],
+      "category": "Databases & Storage",
+      "domain": "Software Engineering",
+      "importance": "Critical",
+      "keywords": ["sql", "postgresql", "mysql", "query", "join", "index", "schema", "acid"]
+    },
+    {
+      "id": "nosql_databases",
+      "name": "NoSQL & Document Stores",
+      "aliases": ["mongodb", "redis", "dynamodb", "cassandra", "firebase"],
+      "category": "Databases & Storage",
+      "domain": "Software Engineering",
+      "importance": "High",
+      "keywords": ["mongodb", "redis", "dynamodb", "caching", "key-value", "document store"]
+    },
+    {
+      "id": "docker",
+      "name": "Docker & Containerization",
+      "aliases": ["docker", "dockerfile", "docker-compose", "containers", "containerization"],
+      "category": "DevOps & Cloud",
+      "domain": "Cloud & DevOps",
+      "importance": "High",
+      "keywords": ["docker", "dockerfile", "container", "image", "docker-compose", "volume", "port binding"]
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "aliases": ["k8s", "kubernetes", "helm", "kubectl"],
+      "category": "DevOps & Cloud",
+      "domain": "Cloud & DevOps",
+      "importance": "High",
+      "keywords": ["kubernetes", "k8s", "pod", "deployment", "service", "ingress", "cluster"]
+    },
+    {
+      "id": "aws_cloud",
+      "name": "AWS Cloud Architecture",
+      "aliases": ["aws", "amazon web services", "ec2", "s3", "lambda", "iam", "cloudwatch"],
+      "category": "DevOps & Cloud",
+      "domain": "Cloud & DevOps",
+      "importance": "Critical",
+      "keywords": ["aws", "ec2", "s3", "lambda", "cloudformation", "iam", "vpc"]
+    },
+    {
+      "id": "cicd_automation",
+      "name": "CI/CD & GitHub Actions",
+      "aliases": ["ci/cd", "github actions", "gitlab ci", "jenkins", "pipeline", "continuous integration"],
+      "category": "DevOps & Cloud",
+      "domain": "Cloud & DevOps",
+      "importance": "High",
+      "keywords": ["ci/cd", "github actions", "pipeline", "workflow", "automation", "jenkins"]
+    },
+    {
+      "id": "data_engineering",
+      "name": "Data Pipelines & Apache Spark",
+      "aliases": ["spark", "pyspark", "airflow", "kafka", "dbt", "etl", "data pipeline", "hadoop"],
+      "category": "Data Engineering",
+      "domain": "Data Engineering",
+      "importance": "Critical",
+      "keywords": ["spark", "pyspark", "airflow", "kafka", "etl", "data warehouse", "lakehouse", "dbt"]
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Network Security & Penetration Testing",
+      "aliases": ["cybersecurity", "infosec", "wireshark", "burp suite", "owasp", "metasploit", "cryptography"],
+      "category": "Cybersecurity",
+      "domain": "Cybersecurity",
+      "importance": "Critical",
+      "keywords": ["cybersecurity", "vulnerability", "encryption", "wireshark", "penetration testing", "firewall", "owasp"]
+    },
+    {
+      "id": "robotics_ros",
+      "name": "ROS / ROS 2 & Robotics",
+      "aliases": ["ros", "ros2", "robot operating system", "gazebo", "kinematics", "slam", "lidar"],
+      "category": "Robotics & Automation",
+      "domain": "Robotics & Automation",
+      "importance": "Critical",
+      "keywords": ["ros", "ros2", "node", "topic", "subscriber", "publisher", "slam", "lidar", "kinematics", "gazebo"]
+    },
+    {
+      "id": "git_version_control",
+      "name": "Git & Version Control",
+      "aliases": ["git", "github", "gitlab", "version control", "pull requests"],
+      "category": "Core Engineering",
+      "domain": "Software Engineering",
+      "importance": "High",
+      "keywords": ["git", "commit", "branch", "merge", "rebase", "github", "gitlab"]
+    }
+  ]
+}

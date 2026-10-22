@@ -1,0 +1,38 @@
+MARCUS VANCE
+marcus.vance@example.com | +1 (555) 234-8901 | San Francisco, CA
+https://linkedin.com/in/marcus-vance-ai | https://github.com/marcusvance
+
+PROFESSIONAL SUMMARY
+Senior Software & Machine Learning Engineer with 4.8 years of verified production experience developing streaming inference architectures, asynchronous evaluation pipelines, and low-latency computer vision systems in Python and PyTorch.
+
+EXPERIENCE
+Machine Learning Software Engineer | NeuroScale AI
+2023 – Present | San Francisco, CA
+• Developed streaming LLM inference backend and asynchronous PyTorch evaluation pipelines in Python reducing p99 response time from 320ms to 48ms.
+• Engineered multi-camera object detection and computer vision segmentation models using PyTorch, OpenCV, and ONNX runtime.
+• Optimized deep learning transformer architectures on multi-GPU nodes with PyTorch DDP and automated evaluation benchmarking.
+• Integrated REST APIs and gRPC microservices with PostgreSQL for real-time telemetry extraction.
+
+Software Engineer | Apex Cloud Systems
+2021 – 2023 | Seattle, WA
+• Architected backend microservices in Python and TypeScript processing 45k req/sec across distributed environments.
+• Built automated CI/CD pipelines with GitHub Actions reducing deployment failure rate by 34%.
+• Authored technical RFCs on database connection pooling and distributed caching architectures.
+
+EDUCATION
+Master of Science (M.S.) in Computer Science
+Stanford University | 2021 | Focus: Distributed Systems & Machine Learning
+
+Bachelor of Science (B.S.) in Software Engineering
+University of Washington | 2019
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, TypeScript, C/C++, SQL
+AI & Machine Learning: PyTorch, TensorFlow, Deep Learning, Machine Learning, Computer Vision, NLP, ONNX Runtime
+Data & Backend: PostgreSQL, Pandas, NumPy, REST APIs, System Design, CI/CD Pipelines
+Certifications: AWS Certified Machine Learning Specialist (Verified)
+
+PROJECTS
+EdgeVision — Real-time Anomaly Detection
+Designed and deployed embedded vision inference pipeline using PyTorch and ONNX, achieving 60 FPS on edge accelerators.
+Impact: Deployed across 1,200 industrial IoT camera nodes with zero downtime.
