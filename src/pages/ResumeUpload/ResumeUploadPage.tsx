@@ -30,6 +30,28 @@ export const ResumeUploadPage: React.FC = () => {
     }
   };
 
+  const handleSelectSample = async (sampleKey: 'ai' | 'embedded' | 'data') => {
+    const titles = {
+      ai: 'Elena Rostova (AI & ML Engineer)',
+      embedded: 'Vikram Patel (Embedded Firmware)',
+      data: 'Marcus Chen (Data Systems)',
+    };
+    setCurrentFileName(titles[sampleKey] || `Sample Candidate (${sampleKey})`);
+    setActiveStep('processing');
+    setIsDone(false);
+
+    try {
+      await analyzeSampleResume(sampleKey);
+      setIsDone(true);
+      setTimeout(() => {
+        setRole('candidate');
+        navigate('/candidate');
+      }, 900);
+    } catch (err) {
+      // analysisError is captured in AppContext
+    }
+  };
+
   const handleRetry = () => {
     setActiveStep('upload');
     setIsDone(false);
@@ -60,7 +82,7 @@ export const ResumeUploadPage: React.FC = () => {
         {activeStep === 'upload' ? (
           <ResumeUploader
             onStartAnalysis={handleStartAnalysis}
-            onSelectSample={() => {}}
+            onSelectSample={handleSelectSample}
             isProcessing={isAnalyzing}
             error={analysisError}
           />

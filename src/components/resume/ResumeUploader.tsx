@@ -105,7 +105,13 @@ export const ResumeUploader: React.FC<ResumeUploaderProps> = ({
         onDragLeave={handleDrag}
         onDragOver={handleDrag}
         onDrop={handleDrop}
-        className={`p-10 rounded-xl border transition-all text-center space-y-4 bg-white shadow-xs ${
+        onClick={(e) => {
+          // Only trigger file picker if not clicking the submit button
+          if (!(e.target as HTMLElement).closest('button')) {
+            inputRef.current?.click();
+          }
+        }}
+        className={`p-10 rounded-xl border transition-all text-center space-y-4 bg-white shadow-xs cursor-pointer ${
           dragActive
             ? 'border-[#2457D6] bg-[#F0F4FE]/40 ring-2 ring-[#2457D6]/20'
             : selectedFile
@@ -116,7 +122,7 @@ export const ResumeUploader: React.FC<ResumeUploaderProps> = ({
         <input
           ref={inputRef}
           type="file"
-          accept=".pdf,.docx,.doc"
+          accept=".pdf,.docx,.doc,.txt"
           onChange={handleChange}
           className="hidden"
         />
@@ -134,23 +140,19 @@ export const ResumeUploader: React.FC<ResumeUploaderProps> = ({
               <span>{(selectedFile.size / 1024).toFixed(1)} KB</span>
             </div>
             <p className="text-[11px] text-[#667085]">
-              Document ready for deterministic extraction & skill verification.
+              Document ready. Click below to analyze, or click the box to choose a different file.
             </p>
           </div>
         ) : (
           <div className="space-y-1.5">
             <p className="text-xs sm:text-sm font-medium text-[#111318]">
               Drag & drop your PDF / DOCX resume, or{' '}
-              <button
-                type="button"
-                onClick={() => inputRef.current?.click()}
-                className="text-[#2457D6] hover:underline font-semibold"
-              >
+              <span className="text-[#2457D6] hover:underline font-semibold">
                 browse files
-              </button>
+              </span>
             </p>
             <p className="text-[11px] text-[#8E98A8] font-mono">
-              Supported: PDF, DOCX (Max 15MB) • Zero Hallucinations Guaranteed
+              Supported: PDF, DOCX, TXT (Max 15MB) • Zero Hallucinations Guaranteed
             </p>
           </div>
         )}
@@ -161,7 +163,10 @@ export const ResumeUploader: React.FC<ResumeUploaderProps> = ({
               type="button"
               variant="primary"
               size="md"
-              onClick={handleUploadSubmit}
+              onClick={(e) => {
+                e.stopPropagation();
+                handleUploadSubmit();
+              }}
               disabled={isProcessing}
               className="w-full sm:w-auto text-xs font-semibold px-6 gap-2"
             >
@@ -169,6 +174,61 @@ export const ResumeUploader: React.FC<ResumeUploaderProps> = ({
               <ArrowRight className="w-4 h-4" />
             </Button>
           )}
+        </div>
+      </div>
+
+      {/* Quick Test with Preloaded Benchmark Profiles */}
+      <div className="space-y-3 pt-2">
+        <div className="flex items-center justify-center gap-2">
+          <div className="h-px bg-[#E6E7E5] flex-1 max-w-[80px]" />
+          <span className="text-[11px] font-mono text-[#8E98A8] uppercase tracking-wider">
+            Or test with verified candidate benchmarks
+          </span>
+          <div className="h-px bg-[#E6E7E5] flex-1 max-w-[80px]" />
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 max-w-xl mx-auto">
+          <button
+            type="button"
+            disabled={isProcessing}
+            onClick={() => onSelectSample('ai')}
+            className="p-3 rounded-lg border border-[#E6E7E5] bg-white hover:border-[#2457D6] hover:bg-[#F0F4FE]/30 transition-all text-left space-y-1 group disabled:opacity-50"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-mono font-medium text-[#2457D6] uppercase">AI & ML</span>
+              <Sparkles className="w-3 h-3 text-[#2457D6] opacity-0 group-hover:opacity-100 transition-opacity" />
+            </div>
+            <p className="text-xs font-semibold text-[#111318]">Elena Rostova</p>
+            <p className="text-[11px] text-[#667085] truncate">5+ Yrs · PyTorch, ONNX</p>
+          </button>
+
+          <button
+            type="button"
+            disabled={isProcessing}
+            onClick={() => onSelectSample('embedded')}
+            className="p-3 rounded-lg border border-[#E6E7E5] bg-white hover:border-[#2457D6] hover:bg-[#F0F4FE]/30 transition-all text-left space-y-1 group disabled:opacity-50"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-mono font-medium text-[#027A48] uppercase">Firmware</span>
+              <Sparkles className="w-3 h-3 text-[#027A48] opacity-0 group-hover:opacity-100 transition-opacity" />
+            </div>
+            <p className="text-xs font-semibold text-[#111318]">Vikram Patel</p>
+            <p className="text-[11px] text-[#667085] truncate">6 Yrs · C/C++, FreeRTOS</p>
+          </button>
+
+          <button
+            type="button"
+            disabled={isProcessing}
+            onClick={() => onSelectSample('data')}
+            className="p-3 rounded-lg border border-[#E6E7E5] bg-white hover:border-[#2457D6] hover:bg-[#F0F4FE]/30 transition-all text-left space-y-1 group disabled:opacity-50"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-mono font-medium text-[#B54708] uppercase">Data Eng</span>
+              <Sparkles className="w-3 h-3 text-[#B54708] opacity-0 group-hover:opacity-100 transition-opacity" />
+            </div>
+            <p className="text-xs font-semibold text-[#111318]">Marcus Chen</p>
+            <p className="text-[11px] text-[#667085] truncate">4 Yrs · Spark, Kafka, SQL</p>
+          </button>
         </div>
       </div>
 
